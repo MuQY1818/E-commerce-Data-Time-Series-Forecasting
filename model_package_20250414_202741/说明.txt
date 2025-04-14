@@ -1,0 +1,18 @@
+模型包说明
+==========
+
+文件结构：
+- 代码/: 模型源代码
+- 模型/: 训练好的模型和数据缩放器
+- 结果/: 预测结果可视化
+- 数据/: 用于训练的数据集
+
+使用方法：
+1. 确保安装了所需的Python包（torch, pandas, numpy, scikit-learn, matplotlib）
+2. 运行 simplified_model.py 进行预测
+3. 结果将保存在 '结果/' 目录下
+
+注意事项：
+- best_model.pth 是训练好的模型权重
+- y_scaler.joblib 用于数据缩放
+- 预测结果可在 simplified_model_results.png 中查看
